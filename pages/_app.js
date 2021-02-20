@@ -1,7 +1,7 @@
 import '../styles/main.scss'
 
 function MyApp({ Component, pageProps }) {
-  return <Component {...pageProps} appProps="ibf" />
+  return <Component {...pageProps} />
 }
 
 export default MyApp
