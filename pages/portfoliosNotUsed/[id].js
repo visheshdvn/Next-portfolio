@@ -11,7 +11,6 @@ class Portfolio extends Component {
         try {
             const res = await axios.get(`https://jsonplaceholder.typicode.com/posts/${query.id}`)
             post = res.data
-            console.log(post);
         } catch (e) {
         console.error(e);
         }
