@@ -1,5 +1,8 @@
 @import './shared/fonts';
 
+// Page
+@import './index';
+
 * {
   box-sizing: border-box;
   padding: 0;
@@ -7,5 +10,14 @@
 }
 
 html, body {
+  height: 100%;
+  width: 100%;
   font-family: 'Montserrat', 'Havetica' !important;
+}
+
+.self-typed {
+  font-size: 31px;
+  color: #fff;
+  font-weight: bold;
+  letter-spacing: 2px;
 }
